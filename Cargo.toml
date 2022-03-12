@@ -6,9 +6,15 @@ description = "CoInitializeEx wrapper"
 authors = ["LNSEAB <691752+LNSEAB@users.noreply.github.com>"]
 license = "Zlib"
 repository = "https://github.com/LNSEAB/coinit"
+documentation = "https://docs.rs/coinit"
+keywords = ["windows"]
+categories = ["windows"]
 
 [dependencies.windows]
 version = "0.33.0"
 features = [
     "Win32_System_Com",
 ]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-pc-windows-msvc"]
