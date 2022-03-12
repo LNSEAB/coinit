@@ -9,4 +9,6 @@ fn main() {
 }
 ```
 
+Licensed under [Zlib license](LICENSE)
+
 Copyright (C) 2022 LNSEAB
