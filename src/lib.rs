@@ -13,7 +13,7 @@ pub const SPEED_OVER_MEMORY: Flags = Flags(COINIT_SPEED_OVER_MEMORY);
 
 impl std::ops::BitOr for Flags {
     type Output = Self;
-    
+
     #[inline]
     fn bitor(self, other: Self) -> Self {
         Self(self.0 | other.0)
