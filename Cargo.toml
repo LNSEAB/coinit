@@ -8,7 +8,6 @@ license = "Zlib"
 repository = "https://github.com/LNSEAB/coinit"
 documentation = "https://docs.rs/coinit"
 keywords = ["windows"]
-categories = ["windows"]
 
 [dependencies.windows]
 version = "0.33.0"
