@@ -1,6 +1,6 @@
 [package]
 name = "coinit"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "CoInitializeEx wrapper"
 authors = ["LNSEAB <691752+LNSEAB@users.noreply.github.com>"]
