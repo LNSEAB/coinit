@@ -20,18 +20,14 @@ impl std::ops::BitOr for Flags {
     }
 }
 
-pub struct CoInitializer {
-    _dummy: std::marker::PhantomData<()>,
-}
+pub struct CoInitializer;
 
 #[inline]
 pub fn init(flags: Flags) -> windows::core::Result<CoInitializer> {
     unsafe {
         CoInitializeEx(std::ptr::null(), flags.0)?;
     }
-    Ok(CoInitializer {
-        _dummy: std::marker::PhantomData,
-    })
+    Ok(CoInitializer)
 }
 
 impl Drop for CoInitializer {
