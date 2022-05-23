@@ -10,7 +10,7 @@ documentation = "https://docs.rs/coinit"
 keywords = ["windows"]
 
 [dependencies.windows]
-version = ">= 0.37.0, < 1"
+version = "0.37.0"
 features = [
     "Win32_System_Com",
 ]
